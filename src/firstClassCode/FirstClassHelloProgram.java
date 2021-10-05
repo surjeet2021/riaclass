@@ -2,18 +2,23 @@ package firstClassCode;
 
 public class FirstClassHelloProgram {
 
+	
+//	Static:-When java runtime starts, there is no object of the class present.
+	
 	public static void main(String[] args) {
 		
-		String value="Day";
+		String value  =  "Day";
 		
-		int value1=1;
-	     value1=++value1;
+		float floatvalue =1234.00f;
 		
-		System.out.println(2+value1);
+//		int value1=1;
+//	     value1=++value1;
+		
+//		System.out.println(2+value1);
 		
 			
 		
-		System.out.println("Good"+value);
+		System.out.println("Good " + value +"  "+floatvalue);
 		System.out.println("Morning"); 
 		
 		
