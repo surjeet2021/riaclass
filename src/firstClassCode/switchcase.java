@@ -15,8 +15,8 @@ public class switchcase {
 			
 			System.out.println("I like mango");
 			break;
-		case "ishwarereddy":
 			
+		case "ishwarereddy":			
 			System.out.println("I like watermellon");
 			break;
 		case "rupesh":
