@@ -5,6 +5,9 @@ public class Encapsulation {
 	public static void main(String[] args) {
 		
 		Employee objEmp=new Employee();
+
+		
+		
 		objEmp.setNameOfEmployee("surjeet");		
 		System.out.println(objEmp.getNameOfEmployee());
 		
