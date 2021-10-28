@@ -1,38 +1,29 @@
 package firstClassCode;
 
 
-interface  Animal{
+interface Animal{
 	
 	public void animalSound();
-	public void sleep();
-	public void walk();
-	
+	//public void sleep();
+	//public void walk();	
 }
 
-class Rabit implements Animal{
 
-
-	public void animalSound() {		
-		
-	}
-
-
-	public void sleep() {
+class Pig implements Animal {
 	
-		
-	}
-
-	public void walk() {		
-		
+	public void animalSound(){
+		System.out.println("All animal do the sound");
 	}
 }
+
 
 
 public class Interface {
 
 	public static void main(String[] args) {
 	
-	
+		Pig objSound= new Pig();
+		objSound.animalSound();
 		
 	}
 
